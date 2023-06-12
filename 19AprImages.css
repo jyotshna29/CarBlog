@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    height: 130vh;
+    height: 600px;
     background-color: teal;
 }
 #container {
@@ -36,13 +36,13 @@ body{
     z-index: 3;
 } 
 #bigimage {
-    width: 70%;
-    height: 75%;
+    width: 900px;
+    height: 500px;
     position: absolute;
     top: 30px;
-    left: 15%;
+    left: 280px;
     box-shadow: 5px 5px 5px black;
-    background-size: 100% 550px;
+    background-size: 900px 550px;
     background-image: url(0.jpg);
 }
 #left,#right {
@@ -60,14 +60,14 @@ body{
     position: absolute;
     border-radius: 5px;
     left: 20px;
-    top: 43%;
+    top: 200px;
 }
 #right {
     border-right: 1px solid white;
     box-shadow: -5px 5px 2px white;
     position: absolute;
     border-radius: 5px;
-    top: 43%;
+    top: 200px;
     right: 20px;
 }
 #close {
