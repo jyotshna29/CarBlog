@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="19AprSignUp.css">
+    <script src="19AprSignUp.js" defer></script>
+</head>
+<body>
+    <h1>Signup</h1>
+    <div id="container">
+        <form>
+            <section id="1stLayer">
+                <input required class="inp" type="text" placeholder="First Name">
+                <input required class="inp" type="text" placeholder="Sur Name"> <br><br>
+            </section>
+            <input required class="inp" id="Mob" placeholder="Mobile Number or Email Address">
+            <br>
+            <input required type="password" class="inp" id="Pass" placeholder="New Password"> <br>
+            <label id="doblab">Date of Birth</label>
+            <br>
+            <section id="selop">
+                <select>
+                    <option>Date</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+                <select>
+                    <option>Month</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                    <option>May</option>
+                    <option>Jun</option>
+                    <option>Jul</option>
+                    <option>Aug</option>
+                    <option>Sep</option>
+                    <option>Oct</option>
+                    <option>Nov</option>
+                    <option>Dec</option>
+                </select>
+                <select>
+                    <option>YYYY</option>
+                    <option>2004</option>
+                    <option>2003</option>
+                    <option>2002</option>
+                    <option>2001</option>
+                    <option>2000</option>
+                    <option>1999</option>
+                    <option>1998</option>
+                </select>
+            </section>
+            <br>
+            <label id="gen">Gender</label>
+            <br>
+            <section id="gensec">
+                <div class="genderCont">
+                    <label>Male</label>
+                    <input type="radio" name="Gender" value="male" onclick="gender(this.value)">
+                </div>
+                <div class="genderCont">
+                    <label>Female</label>
+                    <input type="radio" name="Gender" value="female" onclick="gender(this.value)">
+                </div>
+                <div class="genderCont">
+                    <label>Others</label>
+                    <input type="radio" name="Gender" value="others" onclick="gender(this.value)">
+                </div>
+            </section>
+            <br>
+            <p id="info">
+                This section explains your rights to use the Service, and the conditions that apply 
+                to your use of the Service. It also explains how we may make changes to the Service.
+            </p>
+            <input type="submit" id="signup" value="Signup" onclick="storeTheUserInfo()">
+        </form>
+    </div>
+    <p id="para">Have an account</p>
+    <a href="19AprLogin.html"><button id="loginBut">Login</button></a>
+</body>
+</html>

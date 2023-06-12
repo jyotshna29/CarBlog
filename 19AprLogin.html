@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log-In</title>
+    <link rel="stylesheet" href="19AprLogin.css">
+    <script src="19AprLogin.js" defer></script>
+</head>
+<body>
+    <div id="outerCont">
+        <div id="innerCont">
+            <h1 id="heading">Login</h1>
+            <form>
+                <div class="inputdiv">
+                    <input class="inputTags" placeholder="Enter the Email">
+                </div>
+                <div class="inputdiv" id="passdiv">
+                    <input class="inputTags" type="password" placeholder="Enter the Password">
+                    <img id="passVis" src="closedeye.png" onmousedown="passvis()" onmouseup="passHid()">
+                </div>
+                <p id="status"></p>
+                <input type="button" value="Login" id="loginBut" onclick="passvalid()" onmousedown="bigButton()" onmouseup="smallButton()">
+        </div>
+        </form>
+        <p id="para">Have no account</p>
+        <a href="index.html"><input id="in" type="button" value="Signup"></a>
+    </div>
+</body>
+</html>
